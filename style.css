@@ -15,7 +15,6 @@ body {
     background-color: hsl(0, 0%, 100%);
     background-image: url(images/bg-pattern-top-mobile.svg) , url(images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat , no-repeat;
-
 }
 
 .container {
@@ -151,4 +150,79 @@ p.review {
     position: relative;
 }
 
+@media screen and (max-width:610px) {
+    
+    .container {
+        margin: 2rem auto;
+    }
+    
+    .main {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .text h1 {
+        padding-right: 30px;
+    }
+    
+    .text {
+        padding: 0 70px 30px 70px;
+    }
+
+    .box {
+        width: 70%;
+        margin: 10px auto;
+    } 
+    
+    .rate {
+        padding-bottom: 100px;
+    }
+
+    .rate .box .stars {
+        display: inline-block;
+    }
+    
+    .rate .box .stars img {
+        padding:  0 0px;
+    }
+    
+    .rate .box > p {
+        display: block;
+        padding-left: 0;
+        padding-top: 5px;
+        
+    }
+
+    .one {
+        position: relative;
+        left: 0px; 
+    }
+    
+    .two {
+        position: relative;
+        left: 0px; 
+    }
+    
+    .three {
+        position: relative;
+        left: 0px; 
+    }
+    
+    .cards {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    
+    .cards {
+        margin: 0 auto;
+    }
+    
+    .photo {
+        display: flex;
+        flex-flow: column no-wrap;
+        position: relative;
+    }
+    
+
+}
 
